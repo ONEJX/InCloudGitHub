@@ -19,6 +19,7 @@ SENSITIVE_PATTERNS = [
     # OpenAI API密钥格式
     r'sk-[a-zA-Z0-9]{32,}',
     r'sk-proj-[a-zA-Z0-9_-]{32,}',
+    r'ark-[a-zA-Z0-9]{7,}-[a-zA-Z0-9]{3,}-[0-9]{3,}-[a-zA-Z0-9]{8,}-[0-9]{3,},
     
     # Anthropic API密钥格式
     r'sk-ant-[a-zA-Z0-9_-]{32,}',
